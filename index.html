@@ -65,27 +65,37 @@
       </div>
     </nav>
 
-    <!-- mobile nav items -->
+    <!-- Mobile Nav Items -->
     <div
-      class="hidden flex flex-col justify-center items-center w-[50vw] rounded-xl shadow-md gap-8 lg:hidden bg-white text-black absolute z-1000 right-4"
       id="menuStuff"
+      class="hidden flex flex-col justify-center items-center w-[90vw] max-h-[80vh] rounded-lg px-10 shadow-md gap-8 lg:hidden bg-white text-black absolute z-50 right-4 top-16 p-6 transition-all duration-300 ease-in-out"
     >
-      <li><a href="#home" class="hover:text-orange-500">Features</a></li>
-      <li>
-        <a href="#services" class="hover:text-orange-500">Downloads</a>
-      </li>
-      <li><a href="#about" class="hover:text-orange-500">Support</a></li>
+      <!-- Close Button
+      <button
+        id="closeBtn"
+        class="text-3xl text-gray-500 hover:text-orange-500 self-end"
+      >
+        &times;
+      </button> -->
+
+      <ul class="space-y-4 w-full text-gray-500">
+        <li><a href="#home" class="hover:text-orange-500">Features</a></li>
+        <li><a href="#services" class="hover:text-orange-500">Downloads</a></li>
+        <li><a href="#about" class="hover:text-orange-500">Support</a></li>
+      </ul>
+
       <a
         href="#"
-        class="rounded-md bg-orange-500 px-18 py-1.5 lg:px-6.5 text-xs font-semibold text-white shadow-xs hover:bg-orange-400"
-        >Get started
+        class="rounded-md bg-orange-500 w-[80vw] text-center px-6 py-2 text-sm font-semibold text-white shadow hover:bg-orange-400 transition"
+      >
+        Get started
       </a>
     </div>
 
     <!-- hero section  -->
     <div class="bg-white">
       <section
-        class="grid grid-cols-1 lg:grid-cols-2 pt-1 items-center lg:max-w-[90vw] mx-auto pt-20 lg:mx-auto"
+        class="grid grid-cols-1 lg:grid-cols-2 pt-1 items-center lg:max-w-[90vw] mx-auto lg:pt-20 lg:mx-auto"
       >
         <div class="relative isolate px-6 pt-4 lg:px-2">
           <div class="mx-auto max-w-2xl text-4xl font-bold">
@@ -283,7 +293,7 @@
     >
       <div class="grid lg:grid-cols-2">
         <div
-          class="max-w-[90vw] p-20"
+          class="max-w-[90vw] p-10"
           data-aos="zoom-in-up"
           data-aos-duration="1000"
         >
